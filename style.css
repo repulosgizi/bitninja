@@ -56,18 +56,12 @@ header {
 
 h1 {
   color: white !important;
-  font-size: 50px !important;
+  font-size: 3rem !important;
    text-align:  center !important;
     font-family: Impact, sans serif !important; 
-    margin: 50px 0 50px 0 !important;
+    margin: 5% 0 5% 0 !important;
 }
 
-h2 {
-  font-size: 18px !important;
-  font-family: Verdana, sans !important;
-   font-size: 25px !important;
-  word-spacing: 5px;
-}
 
 h6 {
   color: white !important;
@@ -76,19 +70,58 @@ h6 {
     margin-top: 10px !important;
 }
 
+.row {
+  margin-bottom: 20px;
+}
+
+/*1. dia*/
+
+#h2_firewall {
+   
+  font-family: Verdana, sans !important;
+   font-size: 1.5rem !important;
+  word-spacing: 5px;
+}
+
+
+/*1.dia vége*/
+
+/*2. dia*/
+
+#h2_all_waf {
+  font-family: Impact, sans serif !important;
+  font-size: 2.5rem !important;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 #dia2_ul {
   list-style-type: disc;
   margin-left: 30px;
+  font-size: 1rem;
 }
+
+#dia2_ul_div {
+  margin-left: 30px;
+  margin-top: 5%;
+  margin-right: 5px;
+}
+
+#kep2 {
+  width: 530px;
+  height: 420px;
+  float: left;
+  border-radius: 10%;
+}
+
+
+/*2.dia vége*/
 
 .dia3_ul {
 color: white;
 }
 
-.all_waf {
-  font-family: Impact, sans serif;
-  font-size: 30px;
-}
+
 footer {
   background-color: black;
   width: 100%;
@@ -100,14 +133,10 @@ iframe {
     margin-left: 50px;
 }
 
-.row {
-  margin-bottom: 20px;
-}
+
+
 .main-nav {
-float: right;
-vertical-align: middle;
-height: 40px;
-margin-top: 15px;
+margin-top: 10px;
 }
 
 .main-nav li {
@@ -159,9 +188,6 @@ margin-top: 30px;
 color: white;
 }
 
-.dia2 {
-
-}
 
 #dia3 {
   background-color: black;
@@ -181,9 +207,56 @@ color: white;
   width: 100%;
 }
 
-#kep2 {
-  width: 800px;
-  height: 600px;
-  float: right;
+
+
+
+
+
+/*media query*/
+@media only screen and (max-width: 768px) {
+     h1 {
+        font-size: 2rem !important;
+    }
+
 }
 
+
+@media only screen and (min-width: 1024px) {
+    
+}
+
+@media only screen and (min-width: 1440px) {
+    h1 {
+        font-size: 4rem !important;
+    }
+
+    #dia2_ul {
+        font-size: 1.2rem;
+}
+
+   #kep2 {
+    width: 700px;
+    height: 500px;
+  }
+
+
+@media only screen and (min-width: 2560px) {
+    h1 {
+        font-size: 6rem !important;
+    }
+  #kep2 {
+    width: 800px;
+    height: 600px;
+  }
+
+#dia2_ul {
+    font-size: 1.6rem;
+  }
+
+  #dia2_ul_div {
+    margin-top: 3%;
+  }
+
+  #h2_all_waf {
+        font-size: 4rem !important;
+  }
