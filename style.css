@@ -1,0 +1,189 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+header {
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+h1 {
+  color: white !important;
+  font-size: 50px !important;
+   text-align:  center !important;
+    font-family: Impact, sans serif !important; 
+    margin: 50px 0 50px 0 !important;
+}
+
+h2 {
+  font-size: 18px !important;
+  font-family: Verdana, sans !important;
+   font-size: 25px !important;
+  word-spacing: 5px;
+}
+
+h6 {
+  color: white !important;
+    text-align: right !important;
+    padding-right: 8% !important;
+    margin-top: 10px !important;
+}
+
+#dia2_ul {
+  list-style-type: disc;
+  margin-left: 30px;
+}
+
+.dia3_ul {
+color: white;
+}
+
+.all_waf {
+  font-family: Impact, sans serif;
+  font-size: 30px;
+}
+footer {
+  background-color: black;
+  width: 100%;
+  margin: 0 auto;
+}
+
+iframe {
+     margin-bottom: 30px;
+    margin-left: 50px;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+.main-nav {
+float: right;
+vertical-align: middle;
+height: 40px;
+margin-top: 15px;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.dia {
+position: relative;
+overflow: hidden;
+background-position: cover;
+}
+
+#red_button {
+color: red;
+border-color: red;
+}
+
+#black_button {
+  color: black;
+  border-color:black;
+}
+
+#white_button {
+color: white;
+border-color: white;
+font-size: 22px;
+margin-top: 20px;
+margin-right: 10px;
+border-radius: 10px;
+}
+
+#zold_button {
+border-color: white;
+color: white;
+background-color: green;
+margin-top: 20px;
+font-size: 22px;
+border-radius: 10px;
+letter-spacing: 2px;
+}
+
+#no_credit_card {
+  width: 86%;
+}
+
+#dia1_3 {
+margin-top: 30px;
+color: white;
+}
+
+.dia2 {
+
+}
+
+#dia3 {
+  background-color: black;
+  width: 100%;
+
+}
+
+#logo {
+  height: 65px;
+  width: auto;
+  float: left;
+  
+}
+
+#kep {
+  position: absolute;
+  width: 100%;
+}
+
+#kep2 {
+  width: 800px;
+  height: 600px;
+  float: right;
+}
+
