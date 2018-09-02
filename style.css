@@ -229,6 +229,7 @@ color: white;
   color: white;
   font-size: 1.8rem !important;
   text-align: center;
+  margin-top: 1%;
 }
 
 
@@ -447,8 +448,7 @@ color: white;
 .menu-item:nth-child(9) a:before {
   -webkit-transform: rotate(-260deg);
           transform: rotate(-260deg);
-          vertical-align: middle;
-}
+          }
 
 .menu-item:nth-child(9) a {
   -webkit-transform: rotate(-320deg);
@@ -479,7 +479,7 @@ color: white;
   border-radius: 50%;
   text-align: center;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 1.875rem;
   pointer-events: none;
   transition: 0.2s;
 }
@@ -496,6 +496,36 @@ color: white;
 
 /*circle end*/
 
+/*negyedik dia*/
+#h2_setting {
+    font-size: 1.75rem !important;
+    text-align: center;
+    margin-top: 1%;
+    font-family: Impact, sans serif !important;
+}
+
+#dia4_red_div {
+    height: 190px;
+    background-color: red;
+}
+
+#h3_try {
+color: white;
+vertical-align: 
+}
+
+#btn-white {
+border: 1px solid white !important;
+font-size: 18px;
+border-radius: 5px;
+float: right;
+}
+
+#btn_sign_up {
+  color: white;
+}
+
+/*negyedik dia vége*/
 /*media query*/
 @media only screen and (max-width: 768px) {
      h1 {
@@ -523,6 +553,15 @@ color: white;
     height: 500px;
   }
 
+  /*dia 3*/
+  #dia3 {
+  height: 600px;
+}
+
+
+.dia3_ul {
+  margin-left: 8%;
+}
 
 @media only screen and (min-width: 2560px) {
     h1 {
@@ -544,3 +583,105 @@ color: white;
   #h2_all_waf {
         font-size: 4rem !important;
   }
+
+  /*3-as dia*/
+
+  #h2_bitninja {
+    font-size: 3rem !important;
+  }
+
+  #dia3 {
+  height: 700px;
+}
+
+.dia3_ul {
+  font-size: 2rem;
+  margin-left: 8%;
+}
+
+.menu-item {
+  width: 90px;
+  height: 90px;
+  
+}
+
+.menu-item a {
+  font-size: 55px;
+}
+
+.menu-toggler:checked ~ ul .menu-item:nth-child(1) {
+  -webkit-transform: rotate(0deg) translateX(-160px);
+          transform: rotate(0deg) translateX(-160px);
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(2) {
+  -webkit-transform: rotate(40deg) translateX(-160px);
+          transform: rotate(40deg) translateX(-160px);
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(3) {
+  -webkit-transform: rotate(80deg) translateX(-160px);
+          transform: rotate(80deg) translateX(-160px);
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(4) {
+  -webkit-transform: rotate(120deg) translateX(-160px);
+          transform: rotate(120deg) translateX(-160px);
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(5) {
+  -webkit-transform: rotate(160deg) translateX(-160px);
+          transform: rotate(160deg) translateX(-160px);
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(6) {
+  -webkit-transform: rotate(200deg) translateX(-160px);
+          transform: rotate(200deg) translateX(-160px);
+}
+.menu-toggler:checked ~ ul .menu-item:nth-child(7) {
+  -webkit-transform: rotate(240deg) translateX(-160px);
+          transform: rotate(240deg) translateX(-160px);
+}
+
+.menu-toggler:checked ~ ul .menu-item:nth-child(8) {
+  -webkit-transform: rotate(280deg) translateX(-160px);
+          transform: rotate(280deg) translateX(-160px);
+}
+
+.menu-toggler:checked ~ ul .menu-item:nth-child(9) {
+  -webkit-transform: rotate(320deg) translateX(-160px);
+          transform: rotate(320deg) translateX(-160px);
+}
+
+.menu-item:nth-child(1) a:before {
+  vertical-align: -webkit-baseline-middle;
+}
+
+.menu-item:nth-child(2) a:before {
+  vertical-align: -webkit-baseline-middle;
+}
+
+.menu-item:nth-child(3) a:before {
+  vertical-align: -webkit-baseline-middle;
+}
+
+.menu-item:nth-child(4) a:before {
+  vertical-align: -webkit-baseline-middle;
+}
+
+.menu-item:nth-child(5) a:before {
+  vertical-align: -webkit-baseline-middle;
+}
+
+.menu-item:nth-child(6) a:before {
+  vertical-align: -webkit-baseline-middle;
+}
+
+.menu-item:nth-child(7) a:before {
+  vertical-align: -webkit-baseline-middle;
+}
+
+.menu-item:nth-child(8) a:before {
+  vertical-align: -webkit-baseline-middle;
+}
+
+.menu-item:nth-child(9) a:before {
+  vertical-align: -webkit-baseline-middle;
+}
+
+
