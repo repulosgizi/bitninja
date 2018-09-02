@@ -74,6 +74,7 @@ h6 {
 footer {
   background-color: black;
   width: 100%;
+  height: 210px;
   margin: 0 auto;
 }
 
@@ -615,6 +616,10 @@ margin-left: 11%;
 .fa:before {
   vertical-align: -webkit-baseline-middle;
 }
+
+.footer_div {
+  float: right;
+} 
 /*ötödik dia vége*/
 
 
