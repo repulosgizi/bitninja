@@ -698,6 +698,10 @@ margin-left: 11%;
     height: 320px;
   }
 
+ .nav-item {
+    font-size: 1.3rem;
+ } 
+
   /*dia 3*/
   #dia3 {
   height: 600px;
@@ -779,36 +783,79 @@ padding-top: 6%;
     font-size: 3rem !important;
     }
 
+
+
 @media only screen and (min-width: 2560px) {
     h1 {
         font-size: 6rem !important;
     }
 
-  ./*dia {
-          height: 1100px;
-    }*/
+    /*1-es dia*/
 
-  #kep2 {
-    width: 800px;
+  iframe {
+    width: 1100px;
     height: 600px;
   }
+  
+  .nav-link {
+  font-size: 2rem;
+  }
+  
+  #red_button {
+  font-size: 2rem;
+  }
+  
+  #black_button {
+  font-size: 2rem;
+  }
+  
+  #white_button {
+  font-size: 2.5rem;
+  }
+  
+  #zold_button {
+  font-size: 2.5rem;
+  }
+  
+  #h6_no_credit {
+    font-size: 2.2rem !important;
+  }
+  
+  #no_credit_card {
+    width: 80%;
+  }
 
-#dia2_ul {
-    font-size: 1.6rem;
+  #logo {
+  height: 100px;
+  }
+
+/*2-es dia*/
+
+  #kep2 {
+    width: 1100px;
+    height: 800px;
+}
+
+  #dia2_ul {
+    font-size: 2.5rem;
+    margin-left: 10%;
   }
 
   #dia2_ul_div {
-    margin-top: 3%;
+    margin-top: 3% !important;
+  }
+  #dia2_img {
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-bottom: 5%;
   }
 
   #h2_firewall {
-    font-size: 3.5rem !important;
+    font-size: 4rem !important;
   }
 
-
-
   #h2_all_waf {
-        font-size: 4rem !important;
+        font-size: 5rem !important;
   }
 
   /*3-as dia*/
@@ -822,8 +869,8 @@ padding-top: 6%;
 }
 
 .dia3_ul {
-  font-size: 2rem;
-  margin-left: 8%;
+  font-size: 2.5rem;
+  margin-left: 7%;
 }
 
 .menu-item {
@@ -921,4 +968,77 @@ padding-top: 6%;
 
 #h3_try {
 padding-top: 4%;
+font-size: 2.75rem;
 }
+
+#h2_setting {
+font-size: 4rem !important;
+margin-bottom: 2%;
+}
+
+#text {
+    font-size: 2.2rem;
+}
+
+#kep3 {
+    width: 1200px;
+    height: 800px;
+}
+
+#dia4_red_div {
+    height: 250px;
+    }
+
+  #dia4_text {
+    font-size: 2rem;
+  }
+
+  #btn_sign_up {
+    margin-top: -6%;
+}
+
+#h2_ninjas {
+  font-size: 4rem;
+}
+
+.carousel-logo {
+    width: 280px !important;
+    height: 140px !important;
+    }
+
+  .dia5_first_p {
+    height: 14rem;
+    font-size: 2rem;
+  }  
+
+  .dia5_second_p {
+    height: 14rem;
+    font-size: 2rem;
+  }  
+
+  .carousel-indicators li {
+    width: 40px !important;
+    height: 40px !important;
+    margin-bottom: 1%;
+    margin-top: 1%;
+  }
+
+  footer {
+    height: 25rem !important;
+  }
+
+  .footer_h5 {
+    font-size:2.25rem;
+  }
+
+  .text-small {
+    font-size: 2rem;
+  }
+
+  .fa {
+    font-size:2.5rem;
+  }
+
+  .fa:before {
+    font-size:2rem;
+  }
