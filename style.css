@@ -203,13 +203,26 @@ color: white;
 font-family: 'Kosugi', sans-serif;
 text-transform: uppercase;
 font-size: 1.3rem;
-margin-left: 3%;
+margin-left: 5%;
 text-align: justify;
 line-height: 200%;
 }
 
 #dia3_ul_li {
-  line-height: 250%;
+line-height: 250%;
+color: white;
+font-family: 'Kosugi', sans-serif;
+text-transform: uppercase;
+font-size: 1.3rem;
+margin-left: 3%;
+text-align: justify;
+line-height: 250%;
+text-align: right;
+}
+
+#dia3_ul_li li:after {
+    content: " +";
+    color: red;
 }
 
 .dia3_ul li:before {
@@ -537,6 +550,9 @@ float: right;
   color: white;
   float: right;
   margin-top: -10%;
+  border: 1px solid white;
+  padding: 10px 20px 10px 20px;
+  border-radius: 3px;
 }
 
 #text {
@@ -555,6 +571,7 @@ margin-left: 15%;
 #h2_ninjas {
   text-align: center;
   color: red;
+  margin-top: 10px;
 }
 
 .carousel-logo {
@@ -650,6 +667,8 @@ margin-left: 11%;
     h6 {
       font-size: 1.1rem !important;
     }
+
+
 /*1-es dia*/
 
 #no_credit_card {
@@ -664,6 +683,10 @@ margin-left: 11%;
    #kep2 {
     width: 700px;
     height: 500px;
+  }
+
+  #h2_firewall {
+     font-size: 2rem !important;
   }
 
   /*dia 3*/
@@ -691,7 +714,7 @@ margin-left: 11%;
 }
 
 #h3_try {
-padding-top: 7%;
+padding-top: 6%;
 }
 
 #h2_setting {
@@ -703,9 +726,9 @@ padding-top: 7%;
         font-size: 6rem !important;
     }
 
-  .dia {
+  ./*dia {
           height: 1100px;
-    }
+    }*/
   #kep2 {
     width: 800px;
     height: 600px;
