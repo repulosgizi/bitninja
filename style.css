@@ -82,7 +82,9 @@ iframe {
     margin-left: 50px;
 }
 
-
+.container-fluid {
+  padding: 0 0 0 0 !important;
+}
 
 .row {
   margin-bottom: 20px;
@@ -494,7 +496,7 @@ color: white;
 }
 .menu-item a:hover {
   box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3);
-  color: red;
+  color: red !important;
   background: rgba(255, 255, 255, 0.3);
   font-size: 44.4444444444px;
 }
@@ -557,6 +559,8 @@ margin-left: 15%;
 .carousel-logo {
   width: 224px !important;
   height: 112px !important;
+  margin: auto;
+  padding: 20px 20px 20px 20px;
 }
 
 .footer_h5 {
@@ -588,12 +592,13 @@ ol.carousel-indicators li.active {
 .dia5_first_p {
 float: left;
 background-color: lightgray;
-margin-right: 20px;
+margin-left: 11%;
 }
 
 .dia5_second_p {
   overflow: hidden;
   background-color: lightgray;
+  margin:auto;
 }
 
 .fa {
@@ -621,15 +626,31 @@ margin-right: 20px;
 
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
+}
+
 
 @media only screen and (min-width: 1024px) {
     
 }
 
+
 @media only screen and (min-width: 1440px) {
     h1 {
         font-size: 4rem !important;
     }
+
+    h6 {
+      font-size: 1.1rem !important;
+    }
+/*1-es dia*/
+
+#no_credit_card {
+    width: 58%;
+}
+
 
     #dia2_ul {
         font-size: 1.2rem;
@@ -650,6 +671,14 @@ margin-right: 20px;
   margin-left: 8%;
 }
 
+#h2_bitninja {
+  font-size: 3rem !important;
+}
+
+#h2_all_waf {
+  font-size: 3rem !important;
+}
+
 /*4-es dia*/
 #btn_sign_up {
   
@@ -660,10 +689,17 @@ margin-right: 20px;
 padding-top: 7%;
 }
 
+#h2_setting {
+    font-size: 3.75rem !important;
+    }
 
 @media only screen and (min-width: 2560px) {
     h1 {
         font-size: 6rem !important;
+    }
+
+  .dia {
+          height: 1100px;
     }
   #kep2 {
     width: 800px;
@@ -678,6 +714,12 @@ padding-top: 7%;
     margin-top: 3%;
   }
 
+  #h2_firewall {
+    font-size: 3.5rem !important;
+  }
+
+
+
   #h2_all_waf {
         font-size: 4rem !important;
   }
@@ -685,7 +727,7 @@ padding-top: 7%;
   /*3-as dia*/
 
   #h2_bitninja {
-    font-size: 3rem !important;
+    font-size: 4rem !important;
   }
 
   #dia3 {
