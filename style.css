@@ -525,7 +525,30 @@ float: right;
   color: white;
 }
 
+#text {
+  text-align: center;
+  line-height: 200%;
+  margin-top: 2%;
+}
+
 /*negyedik dia vége*/
+
+/*ötödik dia*/
+#h2_ninjas {
+  text-align: center;
+  color: red;
+}
+
+.footer_h5 {
+  color: red;
+}
+
+.footer_p {
+  color: white !important;
+}
+/*ötödik dia vége*/
+
+
 /*media query*/
 @media only screen and (max-width: 768px) {
      h1 {
