@@ -673,9 +673,12 @@ margin-left: 11%;
 /*1-es dia*/
 
 #no_credit_card {
-    width: 58%;
+    width: 87%;
 }
 
+#h6_no_credit {
+  font-size: 1.5rem !important;
+}
 
     #dia2_ul {
         font-size: 1.2rem;
@@ -690,6 +693,11 @@ margin-left: 11%;
      font-size: 2rem !important;
   }
 
+  iframe {
+    width: 560px;
+    height: 320px;
+  }
+
   /*dia 3*/
   #dia3 {
   height: 600px;
@@ -698,14 +706,63 @@ margin-left: 11%;
 
 .dia3_ul {
   margin-left: 8%;
+  font-size: 1.8rem;
+}
+
+#dia3_ul_li {
+  font-size: 1.8rem;
+  margin-left: 0%;
 }
 
 #h2_bitninja {
-  font-size: 3rem !important;
+  font-size: 2.5rem !important;
 }
 
 #h2_all_waf {
   font-size: 3rem !important;
+}
+
+.menu-item {
+  width: 60px;
+  height: 60px;
+}
+
+.menu-item a {
+  font-size: 2.5rem;
+}
+
+
+.menu-item:nth-child(1) a:before {
+  vertical-align: sub;
+}
+.menu-item:nth-child(2) a:before {
+  vertical-align: sub;
+}
+.menu-item:nth-child(3) a:before {
+  vertical-align: sub;
+}
+.menu-item:nth-child(4) a:before {
+  vertical-align: sub;
+}
+.menu-item:nth-child(5) a:before {
+  vertical-align: sub;
+}
+.menu-item:nth-child(6) a:before {
+  vertical-align: sub;
+}
+.menu-item:nth-child(7) a:before {
+  vertical-align: sub;
+}
+.menu-item:nth-child(8) a:before {
+  vertical-align: sub;
+}
+.menu-item:nth-child(9) a:before {
+  vertical-align: sub;
+}
+
+
+#text {
+  font-size: 1.2rem;
 }
 
 /*4-es dia*/
@@ -719,7 +776,7 @@ padding-top: 6%;
 }
 
 #h2_setting {
-    font-size: 3.75rem !important;
+    font-size: 3rem !important;
     }
 
 @media only screen and (min-width: 2560px) {
