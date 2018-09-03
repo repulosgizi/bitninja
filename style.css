@@ -651,7 +651,7 @@ margin-left: 11%;
       width: 340px;
       height: 200px;
     }
-
+/*dia1*/
     #logo {
     height: 40px;
     }
@@ -662,15 +662,22 @@ margin-left: 11%;
 
    #white_button {
     font-size: 1rem;
+    margin-top: 0;
    } 
 
    #zold_button {
     font-size: 1rem;
+    margin-top: 1%;
    }
 
    #h6_no_credit {
     font-size: 0.7rem;
    }
+
+   #dia1_3 {
+    margin-top: 0% !important;
+    margin-left: 5%;
+  }
 
    #kep2 {
     width: 412px;
@@ -680,7 +687,22 @@ margin-left: 11%;
   #h2_bitninja {
     font-size: 1.4rem !important;
   }
+/*dia3*/
+.dia3_ul li {
+  font-size: 1rem !important;
+}
 
+/*dia4*/
+#btn_sign_up {
+    float: inherit;
+  }
+
+  /*dia5*/
+  .dia5_first_p {
+    margin-left: 8%;
+  }
+
+  
 
 }
 
